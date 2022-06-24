@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.berichten {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+}
+
+.beschrijving {
+    margin-bottom: 50px;
+    padding-top: 300px;
+}
+
+.header {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.p {
+    margin-top: 40px;
+    font-size: 40px;
+    background: #F9EBC8;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.button{
+    font-size: 30px;
+    background-color: #F9EBC8;
+    border: 2px solid transparent;
+    padding: 0 10px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.contact_head{
+    margin-top: 20px;
+    width: 1200px;
+    height: 900px;
+    background:#F9EBC8 ;
+}
+
+.contact_header > h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.contact_name{
+    font-size: 30px;
+}
+
+.contact_button{
+    background-color: #F9EBC8;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+
+.contact_button:hover{
+    cursor: pointer;
+}
+
+
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact_form label{
+    width: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact_form input{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.contact_form textarea{
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+.form_error{
+    color: white;
+    background: red;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
