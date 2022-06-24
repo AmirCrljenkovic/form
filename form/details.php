@@ -14,7 +14,7 @@ if($check_int == false){
     exit;
 }
 
-$statement = $connection->prepare('SELECT * FROM `berichten` WHERE id=?');
+$result = $connection->query('SELECT * FROM `berichten`');
 $params = [$id];
 $statement->execute($params);
 $place = $statement->fetch(PDO::FETCH_ASSOC);

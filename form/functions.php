@@ -7,7 +7,7 @@ function dbConnect()
 
     try {
 
-        $connection = new PDO("mysql:host=" . $db['server'] .";dbname=" . $db['berichten'] . ";port=". $db['port'], $db['username'], $db['password']);
+        $connection = new PDO("mysql:host=" . $db['server'] .";dbname=" . $db['database'] . ";port=". $db['port'], $db['username'], $db['password']);
 
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);

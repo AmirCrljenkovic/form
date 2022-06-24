@@ -2,7 +2,7 @@
 require 'functions.php';
 $connection = dbConnect();
 
-$result = $connection->query('SELECT * FROM `berichten`');
+$result = $connection->query('SELECT * FROM `berichten` WHERE 1=1');
 
 
 ?>

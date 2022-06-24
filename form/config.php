@@ -1,10 +1,10 @@
 <?php
 $config = [
     'server' => 'localhost',
-    'database' => 'berichten',
+    'database' => 'makeitrain',
     'username' => 'root',
     'password' => 'root',
-    'port' => 3306
+    'port' => 8889
 ];
 
 return $config
